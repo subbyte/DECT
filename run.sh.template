@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+sourcedir="hdfs://"
+outputdir="dect.output"
+exedir="path to Dect jar compiled"
+
+echo "[INFO] Remove outputdir if exists."
+hadoop fs -rm -r -f $outputdir
+
+echo "[INFO] spark-submit..."
+spark-submit \
+    --master yarn \
+    --deploy-mode cluster \
+    --driver-memory xxx \
+    --num-executors xxx \
+    --executor-cores xxx \
+    --executor-memory xxx \
+    --class Dect \
+    --queue xxx \
+    --jars lib/scallop_2.10-0.9.5.jar \
+    $exedir -a -e 168 -p 1200 $sourcedir $outputdir
