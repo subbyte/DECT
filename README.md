@@ -25,7 +25,7 @@ Input data format:
   - each line is a user session
   - line format: timestamp \t siteID:siteID:siteID:siteID
   - timestamp should be UNIX time (seconds)
-  - Line example: "1433198382 1:3:1:1:10:25:1:99:1"
+  - Line example: "1433198382 site1:site3:site1:site1:site10:site25:site1:site99:site1"
 
 Compile and run:
   - $ sbt package
