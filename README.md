@@ -1,19 +1,19 @@
 # Distributed Evolving Context Tree (DECT)
 
-DECT is a time-inhomogeneous variable-order Markov chain model.
-
-Model explained in our paper:
->@inproceedings{shu:edbt:2016:dect,<br>
->    author = {Xiaokui Shu and Nikolay Laptev and Danfeng Yao},<br>
->    title = {{DECT}: Distributed Evolving Context Tree for Mining Web Behavior Evolution},<br>
->    booktitle = {Proceedings of the 19th International Conference on Extending Database Technology (EDBT)},<br>
->    month = {March},<br>
->    year = {2016},<br>
->    pages = {573--579},<br>
->    publisher = {OpenProceedings.org},<br>
->    address = {Konstanz, Germany},<br>
->    location = {Bordeaux, France},<br>
->}
+DECT is a time-inhomogeneous variable-order Markov chain model introduced in our paper:
+```
+@inproceedings{shu:edbt:2016:dect,
+    author = {Xiaokui Shu and Nikolay Laptev and Danfeng Yao},
+    title = {{DECT}: Distributed Evolving Context Tree for Mining Web Behavior Evolution},
+    booktitle = {Proceedings of the 19th International Conference on Extending Database Technology (EDBT)},
+    month = {March},<br>
+    year = {2016},<br>
+    pages = {573--579},<br>
+    publisher = {OpenProceedings.org},<br>
+    address = {Konstanz, Germany},<br>
+    location = {Bordeaux, France},<br>
+}
+```
 
 Project goal: model Internet user behavior change through time.
   - Markov model for recording Internet user behavior
