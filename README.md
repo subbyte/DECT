@@ -6,12 +6,12 @@ DECT is a time-inhomogeneous variable-order Markov chain model introduced in our
     author = {Xiaokui Shu and Nikolay Laptev and Danfeng Yao},
     title = {{DECT}: Distributed Evolving Context Tree for Mining Web Behavior Evolution},
     booktitle = {Proceedings of the 19th International Conference on Extending Database Technology (EDBT)},
-    month = {March},<br>
-    year = {2016},<br>
-    pages = {573--579},<br>
-    publisher = {OpenProceedings.org},<br>
-    address = {Konstanz, Germany},<br>
-    location = {Bordeaux, France},<br>
+    month = {March},
+    year = {2016},
+    pages = {573--579},
+    publisher = {OpenProceedings.org},
+    address = {Konstanz, Germany},
+    location = {Bordeaux, France},
 }
 ```
 
